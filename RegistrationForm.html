@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Workshop Registration</title>
+	<style type="text/css">
+		.asteriks{color: red;}
+        .bottom{width:200px;
+                margin: auto;}
+        .form1{padding:10px;}        
+	</style>
+
+</head>
+<body>
+
+	<form action="#"   method="GET" class="form1">
+       <div class="head" style="background:#80ff00 ; color: white">
+       	 <h3>Workshop Registration</h3>
+       </div>
+      
+
+       <div class="main">
+       	<table>
+       	    <tr>
+       		<td>
+       			 <div class="column1">
+       	  
+       	 	<h4>Register now while seats are available!</h4>
+       	 	<table>
+       	 	 <tr><td><label>First Name:</label><label class="asteriks">*</label></label></td><td><input type="text" id="fname" name="fname"  required></td></tr>
+       	 	 <tr><td><label>Last Name:</label><label class="asteriks">*</label></td><td><input type="text" id="lname" name="lname" required></td></tr>
+       	 	 <tr><td><label>Company/Institution:</label><label class="asteriks">*</label></td><td><input type="text" id="compnay" name="company" required></td></tr>
+       	 	 <tr><td><label>Address:</label><label class="asteriks">*</label></td><td><textarea id="address" name="address" rows="4" cols="40" required></textarea></td></tr>
+       	 	 <tr><td><label>City:</label></td><td><input type="text" id="city" name="city" value=" "></td></tr>
+       	 	 <tr><td><label>State/Provience/Region:</label></td><td><select name="state" id="state">
+                                                                      <option value="iowa">Select</option>
+                                                                      <option value="iowa">Iowa</option>
+                                                                      <option value="ohio">Ohio</option>
+                                                                      <option value="california">California</option>
+                                                                      <option value="atlanta">Atlanta</option>
+                                                                   </select></td></tr>
+            <tr><td><label>Country:</label></td><td><select name="country" id="state">
+                                                                      <option value="select">Select</option>
+                                                                      <option value="ethiopia">Ethiopia</option>
+                                                                      <option value="usa">USA</option>
+                                                                      <option value="canada">Canada</option>
+                                                                      <option value="mexico">Mexico</option>
+                                                                   </select></td></tr>
+            <tr><td><label>Email:</label><label class="asteriks">*</label></td><td><input type="email" id="email" name="email" required></td></tr>
+            <tr><td><label>Phone:</label><label class="asteriks">*</label></td><td><input type="tel" id="phone" name="phone"  required></td></tr>                                                                                                              
+            </table>
+       	 </div>
+       		</td>
+       		<td>
+ <div class="column2">
+       	 	<h4>Lunch</h4>
+       	 	<table>
+       	 	  <tr><td><label>Meal Preference:</label></td><td><select name="meal" id="meal">
+                                                                      <option value="vegiterian">Verigetrian</option>
+                                                                      <option value="vegan">Vegan</option>
+                                                                      <option value=" "></option>
+                                                                   </select></td></tr>	
+              <tr><td><label>Payment Details</label></td><td><label>                 </label></td></tr>
+              <tr><td><label>Payment Mode</label></td><td> <input type="radio" name="payment" />Cash<br>
+                                                            <input type="radio" name="payment" />Cheque<br>
+                                                            <input type="radio" name="payment" />Demand Draft<br> 
+                                                            <td></tr>
+              <tr><td><label>DD/Cheque No.</label></td><td><input type="text" id="chequeno" name="chequeno" value=" "></td></tr> 
+              <tr><td><label>Drawn On(Bank Name):</label></td><td><input type="text" id="bankname" name="bankname" value=" "></td></tr>
+              <tr><td><label>Payable at</label></td><td><input type="text" id="payableat" name="payableat" value=" "></td></tr>                                            	                                                   
+       	 	</table>
+
+       	 </div></td>
+         	</tr>
+       </table>
+       		
+       </div>
+       <div class="footer"  style="background:#80ff00 ; color: white">
+       	  <div class="bottom">
+       	  	<input type="submit"  style="background:#80ff00 ; color: white">
+       		<input type="reset" value="Reset" style="background:#80ff00 ; color: white">
+       	  </div>
+
+
+       	
+       </div>
+	</form>
+
+</body>
+</html>
